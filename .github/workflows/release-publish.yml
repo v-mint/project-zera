@@ -21,7 +21,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Semantic release
-        run: yarn exec semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
