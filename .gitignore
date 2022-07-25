@@ -1,6 +1,10 @@
 node_modules
 dist
 
+# storybook
+storybook-static
+
+# yarn
 .pnp.*
 .yarn/*
 yarn-error.log
