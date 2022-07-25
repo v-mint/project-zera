@@ -1,4 +1,4 @@
-name: Push new release
+name: Push new release and publish to NPM registry
 
 on: workflow_dispatch
 
