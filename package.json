@@ -1,6 +1,6 @@
 {
-  "name": "project-zera",
-  "version": "0.0.1",
+  "name": "@v-mint/project-zera",
+  "version": "0.0.2",
   "description": "React UI library you probably won't use",
   "author": "June21x",
   "license": "MIT",
@@ -19,6 +19,9 @@
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.3.0",
