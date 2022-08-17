@@ -15,10 +15,6 @@
         "assets": ["dist/**/*.{js,css}", "package.json", "docs/CHANGELOG.md"],
         "message": "chore(release): ${nextRelease.version} - <%= new Date().toLocaleDateString('en-MY', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n${nextRelease.notes}"
       }
-    ],
-    [
-      "@semantic-release/github",
-      { "successComment": false, "addReleases": "top" }
     ]
   ],
   "branches": ["dev"]
